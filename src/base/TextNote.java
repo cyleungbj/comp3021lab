@@ -102,4 +102,10 @@ public class TextNote extends Note{
 		
 	}
 	
+	public void setContent(String content) {
+		
+		this.content = content;
+		
+	}
+	
 }
