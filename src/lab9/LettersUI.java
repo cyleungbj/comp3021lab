@@ -78,9 +78,10 @@ public class LettersUI extends Application {
 				
 				text.setVisible(false);
 				showing = false;
-				this.notify();
+				
 				
 			}
+			this.notify();
 		
 	}
 	class MyTask implements Runnable {
